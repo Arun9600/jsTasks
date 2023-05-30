@@ -1,1 +1,1 @@
-Simple JS tasks for begineers
+JavaScript Projects
