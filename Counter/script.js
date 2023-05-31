@@ -17,3 +17,11 @@ btn.forEach((btns) => {
     display.innerHTML = `The Counter Value is : ${count}`;
   });
 });
+
+let aCount = document.getElementById("aCount");
+let counter = () => {
+  let newValue = aCount.innerHTML;
+  newValue++;
+  aCount.innerHTML = newValue;
+};
+setInterval(counter, 1000);
