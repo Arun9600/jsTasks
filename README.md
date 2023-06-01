@@ -8,3 +8,4 @@ JavaScript Mini Projects
 6. Button Click body background color change
 7. Background Color Change using HTML color Picker
 8. Current Date, Time, Day, Month
+9. Local Time
