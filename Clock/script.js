@@ -31,8 +31,23 @@ function Timer() {
     "Saturday",
   ];
   let Day = day[d.getDay()];
+  let m = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  let Month = m[d.getMonth()];
   time.innerHTML = `<b>Date:</b>: ${dateFormat} <br>
-  <b>Time:</b> ${t} <br> <b>Day:</b> ${Day}
+  <b>Time:</b> ${t} <br> <b>Day:</b> ${Day} <br> <b>Month:</b> ${Month}
   `;
 }
 setInterval(Timer, 1000);

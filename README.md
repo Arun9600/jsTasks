@@ -7,4 +7,4 @@ JavaScript Mini Projects
 5. Automatic year Chnage
 6. Button Click body background color change
 7. Background Color Change using HTML color Picker
-8. Current Date, Time, Day
+8. Current Date, Time, Day, Month
