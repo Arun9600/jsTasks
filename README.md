@@ -1,4 +1,4 @@
-JavaScript Projects
+JavaScript Mini Projects
 
 1. Counter (Manual and Automatic)
 2. Popup
