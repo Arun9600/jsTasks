@@ -9,3 +9,4 @@ JavaScript Mini Projects
 7. Background Color Change using HTML color Picker
 8. Current Date, Time, Day, Month
 9. Local Time
+10. Gallery Filter

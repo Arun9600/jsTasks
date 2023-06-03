@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Filter</title>
+    <style>
+      .container {
+        width: 1320px;
+        margin: 0 auto;
+      }
+      .item img {
+        width: 300px;
+        height: 300px;
+        padding: 15px;
+      }
+      .gallery_container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+      .galleryTabs {
+        text-align: center;
+      }
+      button {
+        background-color: aqua;
+        color: #000;
+        padding: 10px 15px;
+        border: none;
+        box-shadow: none;
+        border-radius: 12px;
+        margin: 25px;
+        cursor: pointer;
+      }
+      .item.hide {
+        display: none;
+      }
+      .item.show {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="galleryTabs">
+        <button class="filter-item active" data-filter="all">All</button>
+        <button class="filter-item" data-filter="flowers">Flowers</button>
+        <button class="filter-item" data-filter="animals">Animals</button>
+        <button class="filter-item" data-filter="birds">Birds</button>
+      </div>
+      <div class="gallery_container">
+        <div class="item flowers">
+          <img src="images/red-rose.webp" alt="rose" />
+        </div>
+        <div class="item flowers">
+          <img src="images/jasmine.jpg" alt="jasmine" />
+        </div>
+        <div class="item animals">
+          <img src="images/cat.jpg" alt="cat" />
+        </div>
+        <div class="item animals">
+          <img src="images/dog.jpg" alt="dog" />
+        </div>
+        <div class="item birds">
+          <img src="images/chicken.jpg" alt="chicken" />
+        </div>
+        <div class="item birds">
+          <img src="images/parrot.jpg" alt="parrot" />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
