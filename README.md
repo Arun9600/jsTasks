@@ -11,3 +11,4 @@ JavaScript Mini Projects
 9. Local Time
 10. Gallery Filter
 11. Button Onlick Time
+12. Random Password Generator
