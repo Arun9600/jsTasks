@@ -1,4 +1,6 @@
 let buttons = document.querySelectorAll("button");
+let body = document.getElementById("body");
+body.style.height = "100vh";
 buttons.forEach((btns) => {
   btns.addEventListener("click", (event) => {
     let get = event.currentTarget.classList;
