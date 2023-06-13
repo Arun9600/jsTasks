@@ -1,6 +1,11 @@
 let popup = document.getElementById("Modal");
 let oPen = document.getElementById("oPen");
 let body = document.getElementById("body");
+let btn = document.querySelector("button");
+btn.style.padding = "10px 20px";
+btn.style.backgroundColor = "green";
+btn.style.color = "#fff";
+body.style.cursor = "pointer";
 oPen.onclick = function () {
   popup.style.display = "block";
   body.style.backgroundColor = "#00000073";
