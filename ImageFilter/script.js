@@ -18,6 +18,20 @@ btns.forEach((btn) => {
   btn.style.margin = "25px";
   btn.style.cursor = "pointer";
 });
+let itemsImage = document.querySelectorAll(".item img");
+itemsImage.forEach((itemImage) => {
+  itemImage.style.width = "300px";
+  itemImage.style.height = "300px";
+  itemImage.style.padding = "15px";
+});
+let itemShow = document.querySelectorAll(".item.show");
+itemShow.forEach((show) => {
+  show.style.display = "block";
+});
+let itemHide = document.querySelectorAll(".item.hide");
+itemHide.forEach((hide) => {
+  hide.style.display = "none";
+});
 let filter = document.querySelectorAll(".item");
 taB.addEventListener("click", (e) => {
   if (e.target.classList.contains("filter-item")) {
